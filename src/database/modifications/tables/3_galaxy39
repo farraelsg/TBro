@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS galaxy39
+(
+	tracking_id	varchar(30),
+	condition	char(2),
+	replicate	smallint,
+	raw_frags	numeric(15,9),
+	internal_scaled	numeric(15,9),
+	external_scaled_frags	numeric(15,9),
+	FPKM numeric(15,8),
+	effective_lenght varchar(30),
+	status char(2)
+); 
