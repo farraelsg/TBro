@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS galaxy42
 (
-  tracking_id varchar(30),
+	tracking_id varchar(30),
 	condition varchar(10),
 	replicate smallint,
 	raw_frags numeric,
