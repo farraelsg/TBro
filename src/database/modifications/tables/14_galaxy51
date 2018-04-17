@@ -1,0 +1,20 @@
+CREATE TABLE galaxy51
+(
+  tracking_id varchar(30),
+	class_code varchar(30),
+	nearest_ref_id varchar(30),
+	gene_id varchar(30),
+	gene_short_name varchar(30),
+	tss_id varchar(30),
+	locus varchar(30),
+	lenght smallint,
+	coverage numeric,
+	HP_FPKM numeric(18,10),
+	HP_conf_lo numeric(18,10),
+	HP_conf_hi numeric(18,10),
+	HP_status char(2), 
+	TP_FPKM numeric(18,10), 
+	TP_conf_lo numeric(18,10),
+	TP_conf_hi numeric(18,10),
+	TP_status char(2)
+);
