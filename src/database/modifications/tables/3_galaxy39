@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS galaxy39
+CREATE TABLE galaxy39
 (
 	tracking_id	varchar(30),
 	condition	char(2),
