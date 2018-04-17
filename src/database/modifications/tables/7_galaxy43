@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS galaxy43
 (
-  test_id varchar(30),
+	test_id varchar(30),
 	gene_id varchar(30),
 	gene varchar(30),
 	locus varchar(30),
