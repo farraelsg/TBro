@@ -1,6 +1,6 @@
 CREATE TABLE galaxy47
 (
-  tracking_id varchar(30),
+	tracking_id varchar(30),
 	class_code varchar(30),
 	nearest_ref_id varchar(30),
 	gene_id varchar(30),
