@@ -1,0 +1,16 @@
+CREATE TABLE galaxy50
+(
+  test_id varchar(30),
+	gene_id varchar(30),
+	locus varchar(30),
+	sample_1 char(2),
+	sample_2 char(2),
+	status varchar(6),
+	value_1 numeric(20,10),
+	value_2 numeric(20,10),
+	log2(fold_change) numeric,
+	test_stat numeric,
+	p_value double precision,
+	q_value numeric(18,10),
+	significant varchar(3)
+);
