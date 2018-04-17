@@ -1,6 +1,6 @@
 CREATE TABLE galaxy52
 (
-  test_id varchar(40),
+	test_id varchar(40),
 	gene_id varchar(40),
 	gene varchar(40),
 	locus varchar,
